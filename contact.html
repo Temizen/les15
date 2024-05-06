@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <title>Introductie</title>
+        <meta charset="utf-8">
+        <meta name="description" content="huiswerk les 15, CV">
+        <meta name="keywords" content="CV, NHA, Huiswerk">
+        <meta name="author" content="B R van Dijk">
+        <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Curriculum Vitae</h1>
+            <ul id="nav">
+                <li class="navside"><a href="index.html"><b>Wie ben ik?</b></a></li>
+                <li class="navside"><a href="mijncv.html"><b>Mijn CV</b></a></li>
+                <li class="navside"><a href="contact.html"><b>Neem contact op</b></a></li>
+            </ul>
+        </header>
+        <div class="divplaceholder">
+            <div class="containercontact">
+                <h3>Neem contact op</h3>
+                <p class="pcontact">
+                    Bent u geïnteresseerd in samenwerking of heeft u vragen?
+                    Neem dan gerust contact met mij op via het contactformulier hiernaast.
+                    Ik kijk er naar uit om van u te horen!
+                </p>
+            </div>
+            <div class="containercontact2">
+                <h3>Contact formulier</h3>
+                <form method="post" action="https://formspree.io/f/mqkrnjyz">
+                    <fieldset>
+                        <legend><b>Uw gegevens:</b></legend>
+                        <input type="hidden" name="_subject" value="Website contact - <Somebody left you a message>">
+                        <label for="aanhef"><b>Aanhef:</b></label>
+                        <input type="radio" name="aanhef" id="aanhef" value="Dhr" checked>Heer
+                        <input type="radio" name="aanhef" value="Mevr">Mevrouw
+                        <input type="radio" name="aanhef" value="Anders">Anders
+                        <br><br>
+                        <input placeholder="Uw voorna(a)m(en)" type="text" name="voornaam" required>*<br>
+                        <input placeholder="tussenvoegsel" type="text" name="tussenvoegsel">
+                        <input placeholder="Uw achternaam" type="text" name="achternaam" required>*
+                        <br><br>
+                        <input name="e-mail" type="email" placeholder="Uw e-mailadres" required>*<br>
+                        <input name="telefoon nummer" type="tel" placeholder="Uw telefoonnummer" required>*
+                        <br><br>
+                        <p class="form">Typ hier uw bericht*</p>
+                        <textarea name="bericht" placeholder="Uw bericht (max 1000 tekens)." maxlength="1000" required></textarea>
+                        <p class="form"> 
+                            Controleer uw gegevens alvorens te versturen.<br>
+                            * zijn verplichte velden.
+                        </p>
+                    </fieldset>
+                    <button type="submit" value="verzend">Verzenden</button>
+                </form>
+            </div>
+        </div>
+        <footer>
+            <p>©2024 B.R. van Dijk</p>
+        </footer>
+    </body>
+</html>

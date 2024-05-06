@@ -1,0 +1,219 @@
+/*centrale layout*/
+body{
+    background-color: rgb(190, 172, 96);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    color: rgb(58, 71, 34);
+    padding: 5px;
+}
+
+header, footer{
+    background-color: rgba(121, 121, 0, 0.5);
+    min-height: 75px;
+    text-align: center;
+    padding: 15px;
+    color: rgb(97, 67, 12);
+    border-radius: 5px; 
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: rgb(140, 70, 20);
+}
+
+/*Navigatie */
+
+#nav a{
+    color: rgb(97, 67, 12);
+    text-decoration: none;
+    
+}
+
+.navside{
+    display: inline-block;
+    height: 25px;
+    width: 175px;
+    padding: 10px;
+    border-left: 2px rgb(140, 70, 20);
+    border-right: 2px rgb(140, 70, 20);
+    background-color: rgba(87, 107, 50, 0.6);
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+.navside:hover{
+    background-color: rgba(140, 70, 20, 0.6);
+    border-left: 2px rgb(87, 107, 50);
+    border-right: 2px rgb(87, 107, 50);
+}
+/*contactformulier*/
+
+.pcontact{
+    max-width: 350px;
+    margin: auto auto 5% auto;
+}
+/*foto's*/
+
+#pic_001{
+    width: 250px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+}
+
+/* DIVS en containers */
+
+.container{
+    display: inline-block;
+    background-color: rgba(87, 107, 50, 0.6);
+    padding: 2%;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    min-height: 350px;
+    width: 500px;
+    border-radius: 150px 150px 15px 15px;
+    color: rgb(97, 67, 12);
+}
+.containercontact{
+    display:inline-table;
+    background-color: rgba(87, 107, 50, 0.6);
+    padding: 2px;
+    margin-top: 2px;
+    margin-bottom: auto;
+    text-align: center;
+    min-height: 50px;
+    min-width: 400px;
+    border-radius: 180px 180px 180px 180px;
+    color: rgb(97, 67, 12);
+}
+.containercontact2{
+    display:inline-table;
+    background-color: rgba(87, 107, 50, 0.6);
+    padding: 2px;
+    margin-top: 2px;
+    margin-bottom: auto;
+    text-align: center;
+    min-height: 50px;
+    min-width: 600px;
+    border-radius: 150px 150px 25px 25px;
+    color: rgb(97, 67, 12);
+}
+.divplaceholder{
+    padding: 1%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    min-height: 750px;
+    
+}
+
+/* tabellen */
+table{
+    color: rgb(97, 67, 12);
+}
+.tablemodel{
+    margin: 5px;
+    padding: 10px;
+    min-width: 100%;
+}
+
+.tablespace{
+    height:1px;
+    background-color: rgba(140, 70, 20, 0.6);
+}
+.jaartal{
+    font-size: small;
+    text-align: left;
+    width: 75px;
+}
+.geldigheid{
+    font-size: x-small;
+    text-align: left;
+    width: 75px;
+}
+.status{
+    font-size: x-small;
+    text-align: left;
+    text-decoration: underline;
+    width: 120px;
+}
+.opleiding{
+    font-weight: bold;
+    font-size: medium;
+    text-align: right;
+    width: 350px;
+}
+.instituut{
+    font-size: small;
+    text-align: right;
+}
+.werkgever{
+    font-size: small;
+    text-align: right;
+}
+
+.functie{
+    font-weight: bold;
+    font-size: medium;
+    text-align: right;
+    width: 350px;
+}
+.werktitel{
+    padding-bottom: 3px;
+    font-size: xx-small;
+    text-align: center;
+    text-decoration: underline;
+}
+.werk{
+    font-size: xx-small;
+    text-align: left;
+}
+/*Formulieren*/
+form{
+    margin: 2% 2% 2px 5%;
+}
+fieldset{
+    margin: 50px;
+    display: block;
+    border: none;
+    border-radius: 25%;
+    font-size: small;
+    text-align: left;
+}
+input[type="text"],input[type="tel"], input[type="email"]{
+    margin: 2px;
+    width: 150px;
+    box-sizing: border-box;
+    border-radius: 4px; box-shadow: inset 2px 2px 5px olive;
+}
+button{
+    margin-bottom: 5px;
+    width: 100px;
+    border-radius: 4px; 
+    color: rgb(97, 67, 12);
+}
+button:active{
+    margin-bottom: 5px;
+    width: 100px;
+    background-color: rgba(140, 70, 20, 0.6);
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+}
+textarea{
+    display: inline-block
+    margin 5%;
+    width: 400px;
+    height: 300px;
+    border-radius: 4px; box-shadow: inset 2px 2px 5px olive;
+}
+p.form{
+    font-size: small;
+    text-align: left;
+    margin-left: 5%;
+}
